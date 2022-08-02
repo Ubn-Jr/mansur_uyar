@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(add(15, 4))
+	fmt.Println(operation(15, 4))
 	//TODO
 	// projede değişken tanımlaması yok 
 	// fonksiyon kullanımı çok yetersiz belirli bir senaryo üzerinde çeşitlendirerek
 	// fonksiyonların farklı tanımlama biçimlerinide burada kullanalım
 }
 
-func add(x int, y int) int {
+func operation(x int, y int) int {
 	//TODO
 	//fonksiyon ismi ile yapılan işlem arasında tutarsızlık var
 	// fonksiyon ismi sadece toplama yapacağını söylüyor 
