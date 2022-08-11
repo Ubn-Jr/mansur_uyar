@@ -18,6 +18,12 @@ func main() {
 	drawOfBesiktas := 0
 	winningsOfTrabzonBelediye := 0
 	drawOfTrabzonBelediye := 0
+	
+	//TODO
+	// 27. ile 72. satır arasındaki algoritma bir birinin aynı mantığında 4 kere tekrar eden bir algoritma
+	// bu 4 döngüyü parametrelerden bağımsız halde çalışan fonksiyon haline getirelim 
+	// işlem fonksiyonun içerisinde yapıldıktan sonra geri dönüş değerini ilgili takıma atayarak kodu tamamlayalım
+	// kod daha güzel olacaktır.
 	for i := 0; i < len(fenerbahce); i++ {
 		var resultsOfFenerbahce string = string(fenerbahce[i])
 
